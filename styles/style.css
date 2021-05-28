@@ -20,9 +20,13 @@ body {
   position: relative;
 }
 
+.bg-img:hover {
+  opacity: 0.9;
+}
+
 .container {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 20px;
   position: absolute;
 }
 
@@ -42,11 +46,10 @@ body {
   color: white;
   background-color: rgba(255, 255, 255, 0);
   border-bottom: 2px solid white;
-  border-radius: 50%;
 }
 
-.navbar-burger {
-  color: white;
+.navbar-burger:hover {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .header-title {
@@ -59,4 +62,26 @@ body {
   margin-left: 175px;
   border: 2px solid white;
   padding: 20px;
+}
+
+@media (max-width: 660px) {
+  .bg-img {
+    background-image: url("/images/mobile/image-hero.jpg");
+    height: 750px;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+
+  .navbar {
+    margin-left: 20px;
+  }
+
+  .header-title {
+    font-size: 3.2rem;
+    font-family: "Josefin Sans", sans-serif;
+    width: 420px;
+    line-height: 4rem;
+    margin-top: 220px;
+    margin-left: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
