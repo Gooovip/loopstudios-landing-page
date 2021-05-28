@@ -6,8 +6,9 @@ $dark-gray: hsl(0, 0%, 55%);
 $very-dark-gray: hsl(0, 0%, 41%);
 
 // Font size
-$font-size: 1.5rem;
+$font-size: 15px;
 
 @import "general";
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 @import "header";
+@import "body";

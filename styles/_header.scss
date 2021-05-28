@@ -11,22 +11,25 @@
     opacity: 0.9;
 }
 
-.container {
+.header {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
     position: absolute; 
-    
 }
 
 .navbar {
     background-color: rgba(255, 255, 255, 0);
     overflow: hidden;
-    margin-left: 175px;
+    margin-left: 80px;
 }
+
+.nav-items {
+    padding-right: 80px;
+}
+
 .nav-items a {
     color: $white;
-    font-size: 1.2rem;
-    margin-right: 10px;  
+    font-size: 1.2rem; 
 }
 
 .nav-items a:hover {
@@ -47,7 +50,7 @@
     width: 500px;
     line-height: 4rem;
     margin-top:200px;
-    margin-left: 175px;
+    margin-left: 80px;
     border: 2px solid white;
     padding:20px;
 

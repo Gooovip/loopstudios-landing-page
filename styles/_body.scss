@@ -1,0 +1,31 @@
+.section {
+    margin-top: 50px;
+}
+
+.inter-img {
+    width:654;
+    height:448;
+}
+
+.body-text {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: $white;
+    width: 580px;
+    height: 300px;
+    position: absolute;
+    right: 180px;
+    top: 200px;
+}
+
+.body-text h1 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height:3rem;
+    padding: 90px 0px 0px 90px;
+}
+
+.body-text p {
+    font-size: $font-size;
+    font-weight: bold;
+    padding: 20px 90px 0px 90px;
+}

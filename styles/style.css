@@ -8,7 +8,7 @@
 body {
   font-family: "Alata", sans-serif;
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 15px;
 }
 
 .bg-img {
@@ -24,22 +24,25 @@ body {
   opacity: 0.9;
 }
 
-.container {
+.header {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
   position: absolute;
 }
 
 .navbar {
   background-color: rgba(255, 255, 255, 0);
   overflow: hidden;
-  margin-left: 175px;
+  margin-left: 80px;
+}
+
+.nav-items {
+  padding-right: 80px;
 }
 
 .nav-items a {
   color: white;
   font-size: 1.2rem;
-  margin-right: 10px;
 }
 
 .nav-items a:hover {
@@ -59,7 +62,7 @@ body {
   width: 500px;
   line-height: 4rem;
   margin-top: 200px;
-  margin-left: 175px;
+  margin-left: 80px;
   border: 2px solid white;
   padding: 20px;
 }
@@ -84,4 +87,35 @@ body {
     margin-top: 220px;
     margin-left: 30px;
   }
+}
+.section {
+  margin-top: 50px;
+}
+
+.inter-img {
+  width: 654;
+  height: 448;
+}
+
+.body-text {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: white;
+  width: 580px;
+  height: 300px;
+  position: absolute;
+  right: 180px;
+  top: 200px;
+}
+
+.body-text h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 3rem;
+  padding: 90px 0px 0px 90px;
+}
+
+.body-text p {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 90px 0px 90px;
 }/*# sourceMappingURL=style.css.map */
