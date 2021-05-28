@@ -74,6 +74,7 @@ ul {
     font-weight: bold;
     position: relative;
     bottom: 80px;
+    cursor: pointer;
 }
 .btn-mobile {
     padding:8px 60px;
@@ -82,6 +83,7 @@ ul {
     position: relative;
     display: none;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .btn-desktop:hover {

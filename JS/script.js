@@ -5,13 +5,11 @@ $(document).ready(function() {
   
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
+        $(".navbar-menu").toggle("is-active");
         $(".navbar-menu").css(
             {"background-color":"black",
-            "height":"658px",
-            "position":"relative",
             "z-index":"999",
-            "width":"440px",
+            "display":"flex",
         });
   
     });
