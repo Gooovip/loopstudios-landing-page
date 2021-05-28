@@ -51,6 +51,10 @@ body {
   border-bottom: 2px solid white;
 }
 
+.navbar-burger {
+  padding-top: 15px;
+}
+
 .navbar-burger:hover {
   background-color: rgba(255, 255, 255, 0);
 }
@@ -62,7 +66,7 @@ body {
   width: 500px;
   line-height: 4rem;
   margin-top: 200px;
-  margin-left: 80px;
+  margin-left: 175px;
   border: 2px solid white;
   padding: 20px;
 }
