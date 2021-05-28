@@ -1,0 +1,62 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alata", sans-serif;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+.bg-img {
+  background-image: url("/images/desktop/image-hero.jpg");
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  margin-left: 175px;
+}
+
+.nav-items a {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.nav-items a:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 2px solid white;
+  border-radius: 50%;
+}
+
+.navbar-burger {
+  color: white;
+}
+
+.header-title {
+  color: white;
+  font-size: 4rem;
+  font-family: "Josefin Sans", sans-serif;
+  width: 500px;
+  line-height: 4rem;
+  margin-top: 200px;
+  margin-left: 175px;
+  border: 2px solid white;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
