@@ -153,7 +153,7 @@ body {
   bottom: 30px;
 }
 
-.btn {
+.btn-desktop {
   padding: 6px 30px;
   background-color: white;
   font-weight: bold;
@@ -161,7 +161,21 @@ body {
   bottom: 80px;
 }
 
-.btn:hover {
+.btn-mobile {
+  padding: 8px 60px;
+  background-color: white;
+  font-weight: bold;
+  position: relative;
+  display: none;
+  margin: 0 auto;
+}
+
+.btn-desktop:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-mobile:hover {
   background-color: black;
   color: white;
 }
@@ -179,4 +193,37 @@ ul li h1 {
 
 ul:hover {
   opacity: 0.3;
+}
+
+.img-mobile {
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .section2-title {
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  .btn-desktop {
+    display: none;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
+  .btn-mobile {
+    display: block;
+  }
+
+  ul {
+    margin-bottom: -50px;
+  }
 }/*# sourceMappingURL=style.css.map */
