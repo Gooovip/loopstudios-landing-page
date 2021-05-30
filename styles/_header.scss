@@ -33,9 +33,14 @@
 }
 
 .nav-items a:hover {
-    color: $white;
     background-color: rgba(255, 255, 255, 0);
-    border-bottom: 2px solid white;
+    background-image: linear-gradient(to right, #fff, #fff);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+    color:$white;
+    
 }
 
 .navbar-burger {
